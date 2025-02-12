@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_case_studies_case_study_sections",
+  "info": {
+    "displayName": "CaseStudySection"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "blocks"
+    }
+  }
+}

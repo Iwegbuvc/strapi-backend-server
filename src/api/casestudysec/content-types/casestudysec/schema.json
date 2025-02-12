@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "casestudysecs",
+  "info": {
+    "singularName": "casestudysec",
+    "pluralName": "casestudysecs",
+    "displayName": "casestudysec"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "case-studies.case-study-section"
+    }
+  }
+}
